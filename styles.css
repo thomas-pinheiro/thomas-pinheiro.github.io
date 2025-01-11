@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+header {
+  background: #0042b1;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none !important;
+}
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
+  transition: color 0.3s;
+}
+.nav a:hover {
+  color: #5383e4;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  min-height: calc(100% - 40px); 
+  padding-bottom: 40px; 
+  overflow: auto; 
+}
+
+.content {
+  max-width: 50%;
+}
+.content h1 {
+  font-size: 3rem;
+  color: #000000;
+}
+.content h1 span {
+  color: #0042b1;
+}
+.content p {
+  font-size: 1rem;
+  color: #000000;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.form-group {
+  margin-top: 20px;
+}
+.form-group input {
+  padding: 15px;
+  width: calc(100% - 30px);
+  margin-bottom: 15px;
+  border: 2px solid #0042b1;
+  border-radius: 30px;
+  background: #f4f4f4;
+  color: #000000;
+}
+
+.form-group textarea {
+  padding: 15px;
+  width: calc(100% - 30px);
+  margin-bottom: 15px;
+  border: 2px solid #0042b1;
+  border-radius: 10px; 
+  background: #f4f4f4;
+  color: #000000;
+  resize: vertical;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.form-group button {
+  background: #0042b1;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.form-group button:hover {
+  background: #5383e4;
+}
+.image-container {
+  max-width: 4 0%;
+  position: relative;
+}
+.image-container img {
+  max-width: 100%;
+}
+
+.logo-acesso-footer {
+  float: left;
+  width: 107px;
+  background: url("info.svg")
+    center no-repeat;
+  height: 49px;
+}
+
+.logo-brasil-footer {
+  float: right;
+  background: url("brasil.svg")
+    center no-repeat;
+  width: 155px;
+  height: 48px;
+}
+
+#footer .footer-logos {
+  margin: 0 0 -20px;
+  padding: 2em 0;
+  max-width: 100%;
+  background: #0042b1;
+}
+
+#footer > div {
+  margin: 2em auto;
+  padding-top: 1em;
+  max-width: 960px;
+}
+
+div#wrapper-footer-brasil {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  width: auto;
+  padding: 0 20px;
+  max-width: 960px;
+}
+
+.rodape {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
